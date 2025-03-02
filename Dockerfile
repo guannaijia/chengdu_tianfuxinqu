@@ -13,5 +13,5 @@ RUN ./mvnw package -DskipTests
 # Expose port 8080
 EXPOSE 8080
 
-# Run the Spring Boot application
+# Run the Spring mvc application
 ENTRYPOINT ["java", "-jar", "target/test_spring_mvc.jar"]
